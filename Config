@@ -1,0 +1,17 @@
+import os
+
+class Config(object):
+    API_ID = int(23909960) #dont change
+    API_HASH = "20640a09707010d0f9766096804baaf2" #dont change 
+    BOT_TOKEN = "8066679823:AAH_wO60kY1FF_DslNWgAyj7xG8DG_oYSNE" #fill your telegram bot token
+    STRING_SESSION = "1BJWap1sBu15a_XS4H3rCasu9c16VJvRh3ybemCMVdJLp0drDTvI0ntpScG-tZPufGFfiNKIKXixjeZRCCjhjQMt5fi5aDiB_WoYfIlKJEIvhY-dHRkkEkXIwfF8XiBLbgytIDKiGM-PJIiR8DqdCmg5KGSssFU_-zAHQ5s33XFtomM61JEtUCSYdTGr9f13elgdhUws0z_EIsOeNHfXqpDL6vFIiOpBRvIHxN_BV0I5kOR5uDgDKIP1Ufi59JM90AviRarqtl3oI2Go42u07oXTaw5doM15LsdYum6G_eZeyO3DY0wl8mOXBZPp7alI7ANmPFHSmex_OyaCgwo0lH3dbwJgZPUI=" #an Telethon Session 
+    MANAGEMENT_MODE = None #Dont change
+    HEROKU_MODE = None #dont change
+    BOT_USERNAME = "saksokralibot" #Your Bot username 
+    SUPPORT = "TheSupportChat" #optional
+    CHANNEL = "TheUpdatesChannel" #optional
+    START_IMG = "https://telegra.ph/file/35a7b5d9f1f2605c9c0d3.png"
+    CMD_IMG = "https://telegra.ph/file/66518ed54301654f0b126.png"
+    ASSISTANT_ID = int(8440907397) #your string added account user id..
+    AUTO_LEAVE_TIME = int(54000) # in seconds
+    AUTO_LEAVE = True #Optional
